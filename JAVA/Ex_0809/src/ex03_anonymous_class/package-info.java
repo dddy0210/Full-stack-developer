@@ -1,0 +1,1 @@
+package ex03_anonymous_class;
