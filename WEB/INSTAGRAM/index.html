@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>instgram</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet"/>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="top">
+        <div id="top_img">
+      <img src="img/instagramlogo.png" width="150px">
+        </div>
+      <input type="search" value="🔍검색">
+         <div>
+            <i class="fas fa-home"></i>
+            <i class="far fa-paper-plane"></i>
+            <i class="far fa-compass"></i>
+            <i class="far fa-heart"></i>
+         </div>
+    </div>
+
+   <!--프로필 부분-->
+    <div id="profile">
+        <div id="profile_pic">
+   <img src="img/profile.jpg" class="circle_pic">
+</div>
+
+    <!--<br>태그는 줄바꿈 기능이 있다.-->
+    <!--<p>태그는 문단을 나누는 태그 paragraph의 약자
+        pd태그는 줄바꿈을 표현하는 block이라는 속성이 있기 때문에 
+        옆에 글이 올 수없다. -->
+        <div id="profile_info">
+           <div id="id">
+            <span>half_bottle</span>
+            <i class="fas fa-cog"></i>
+        </div>
+           <button>프로필 편집</button>
+        </div>
+    </div>
+    <!----------------------->
+
+    <!--회색 버튼이 생긴다.
+    css를 공부하면 버튼의 크기와 색상, 모양을 여러분의 취향대로 수정할 수 있다.-->
+    <div>
+        <p>
+        <!--<strong>볼드체 표현 -->
+        <strong id ="userInfo">
+             반병현(Bynghyun Ban)<br/>  
+        </strong>
+        <span id="summary">작가</span>
+        </p>
+        <p id="profileDetail">
+        <a href="http://needleworm.github.io">
+        needleworm.github.io
+        </a>
+        </p>
+    </div>
+
+    <div id="highlight_area">   
+        <!--높이 35px로 하이라이트 이미지 2개 넣기 -->
+        <div class="highlight">
+            <div class="highlight_pic">
+                <img src="img/h1.jpg" class="circle_pic">
+            </div>
+            <div>
+            <!--window + ;-->
+            🤣
+        </div>
+        </div>
+     <div class="highlight">
+        <div class="highlight_pic">
+            <img src="img/h2.jpg" class="circle_pic">
+        </div>
+        <div>
+        <!--window + ;-->
+            😎
+        </div> 
+    </div>
+    <div></div>
+</div>
+        <div id="stat_bar">
+        <div class="stat">
+           게시물<br/>
+                 133
+                </div>
+        <div class="stat">
+          팔로워<br/>
+                408
+           </div>
+        <div class="stat">
+            팔로우<br/>
+                189
+           </div>
+</div>
+    <div id="sub_icons">
+        <div class="selected">
+            <i class="fas fa-border-all"></i>
+        </div>
+        <div>
+        <i class="fas fa-film"></i>
+        </div>
+        <div>
+           <i class="far fa-play-circle"></i>
+        </div>
+        <div>
+        <i class="far fa-bookmark"></i>
+        </div>
+        <div>
+        <i class="fas fa-user-tag"></i>
+        </div>
+    </div>
+                <div>
+        <!--퍼센트로 지정된 값은 화면 크기에 따라 
+        이미지의 크기가 바뀐다 
+        이처럼 창 크기의 변화에 맞춰 화면의 정보나 사진의 크기가 바뀌는
+        웹 페이지를 반응형 웹이라고 한다. 
+        모든 웹 페이지 외주 제작에서 반응형 웹이 가장 비싼 가격으로 
+        거래되고 있다. 가장 수요가 높고 난이도가 높기 때문 -->
+
+        <div class="thumbnail_grid"> 
+           <img src="img/thumbnails/th1.jpg" class="thumbnail">
+           <img src="img/thumbnails/th2.jpg" class="thumbnail">
+           <img src="img/thumbnails/th3.jpg" class="thumbnail">
+        </div>
+        <div class="thumbnail_grid">
+           <img src="img/thumbnails/th4.jpg" class="thumbnail">
+           <img src="img/thumbnails/th5.jpg" class="thumbnail">
+           <img src="img/thumbnails/th6.jpg" class="thumbnail">
+        </div>
+        <div class="thumbnail_grid">
+           <img src="img/thumbnails/th7.jpg" class="thumbnail">
+           <img src="img/thumbnails/th8.jpg" class="thumbnail">
+           <img src="img/thumbnails/th9.jpg" class="thumbnail">
+        </div>
+    </div>
+</body>
+</html>
