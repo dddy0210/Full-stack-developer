@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <body>
+
+    <!--버튼 모양만 만듦-->
+    <input type ="button" value="버튼">
+    <script>
+        //어느 html요소에 적용시킬건지 먼저 선택 
+        let button = document.querySelector("input");
+        console.log(button);
+
+        //button에 이벤트를 붙힌다. 
+        //button.addEventListener(이벤트의 종류,동작);
+        button.addEventListener("click",function(e){
+            alert("clicked!")
+        });
+    </script>
+</head>
+</body>
+</html>
